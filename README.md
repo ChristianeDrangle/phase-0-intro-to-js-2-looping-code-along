@@ -64,7 +64,7 @@ for ([initialization]; [condition]; [iteration]) {
 ```
 
 - Initialization
-  - Typically used to initialize a **counter** variable.
+  - Typifcally used to initialize a **counter** variable.
 - Condition
   - An expression evaluated before each pass through the loop. If this expression
     evaluates to `true`, the statements in the loop body are executed. If the
@@ -169,7 +169,7 @@ wrapGifts(gifts);
 ```
 
 We started our counter, `i`, at `0` because arrays have zero-based indexes. Our
-condition states that we should run the code in the loop body while `i` is less
+conditi.on states that we should run the code in the loop body while `i` is less
 than `gifts.length` (`3` in the above example). Our iteration, `i++`, increments
 our counter by `1` at the end of each pass through the loop.
 
@@ -211,7 +211,7 @@ stop once it has iterated over the length of the array.
 As with our previous `wrapGifts()` function, you will create a custom message
 for each name inside the loop. Unlike that example, however, instead of simply
 logging the messages to the console, you will collect them in a _new_ array and
-**return** this array at the end of the function. (Refer back to the Array
+**return** this array at the end of the function. (Refer back to the Arrayfu
 Methods lesson if you need a refresher on how we can add an element to an
 array.) The overall process should be:
 
